@@ -71,11 +71,6 @@ ul li {
   user-select: none;
   cursor: pointer;
   position: relative;
-  /* color: #4e085f;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px; */
 }
 
 ul li::before {
@@ -123,4 +118,22 @@ ul li span {
 ul li span:hover {
   color: #ff5945;
   background-color: #edeef0;
+}
+
+@media (max-width: 540px) {
+  .container {
+    margin: 100px auto 20px;
+    border-radius: 10px;
+    padding: 40px 30px 70px;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 90px;
+  }
+  button {
+    padding: 16px 30px;
+  }
 }

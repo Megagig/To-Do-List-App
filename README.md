@@ -26,7 +26,7 @@
 
 # 📖 To-do List App <a name="about-project"></a>
 
-In this project, you will be able to add item to list via form, Remove items from list by clicking the close button etc
+In this project, you will be able to add item to list via form, Remove items from list by clicking the remove button. This project will help you understand the basics of DOM manipulation.
 
 ## 🛠 Built With <a name="built-with"> </a>
 
